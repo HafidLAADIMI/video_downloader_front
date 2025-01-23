@@ -1,18 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import {useState} from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 const NavbarItems = () => {
     return (
         <ul className="flex flex-col md:flex-row gap-6 md:gap-10 items-center text-lg font-medium">
-            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link
-                href='#home'>Home</Link></li>
-            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link
-                href='#download'>Download</Link></li>
-            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link href='#footer'>Contact
-                Us</Link></li>
+            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link href='#home'>Home</Link></li>
+            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link href='#download'>Download</Link></li>
+            <li className="cursor-pointer hover:text-sky-500 transition-colors duration-200"><Link href='#footer'>Contact Us</Link></li>
         </ul>
     );
 };
@@ -37,14 +34,13 @@ const Navbar = () => {
 
             {/* Navbar Links */}
             <div className="hidden md:flex">
-                <NavbarItems/>
+                <NavbarItems />
             </div>
 
             {/* Call-to-Action Button */}
             <div className="hidden md:flex">
-                <button
-                    className="px-6 py-2 bg-sky-500 text-white font-medium rounded-md shadow hover:bg-sky-600 transition-all duration-200">
-                    <Link href='#home'> Get Started</Link>
+                <button className="px-6 py-2 bg-sky-500 text-white font-medium rounded-md shadow hover:bg-sky-600 transition-all duration-200">
+                    Get Started
                 </button>
             </div>
 
@@ -75,9 +71,8 @@ const Navbar = () => {
                     open ? "max-h-screen py-6" : "max-h-0 overflow-hidden"
                 }`}
             >
-                <NavbarItems/>
-                <button
-                    className="mt-6 px-6 py-2 bg-sky-500 text-white font-medium rounded-md shadow hover:bg-sky-600 transition-all duration-200">
+                <NavbarItems />
+                <button className="mt-6 px-6 py-2 bg-sky-500 text-white font-medium rounded-md shadow hover:bg-sky-600 transition-all duration-200">
                     Get Started
                 </button>
             </div>

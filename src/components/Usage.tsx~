@@ -10,7 +10,7 @@ interface ItemProps{
 const Usage = ({item}: ItemProps) => {
     const img = "/image1.png"
     return (
-        <div id='download' className="flex flex-col h-full w-full items-center justify-center gap-4">
+        <div className="flex flex-col h-full w-full items-center justify-center gap-4">
             <h1 className="text-2xl font-serif">{item.h1}</h1>
             <h3 className=" font-sans text-ellipsis text-wrap text-center w-1/2 ">{item.h2}</h3>
             <Image src={item.img} height={500} width={500} alt="img1" className="h-1/2 w-1/2 object-contain shadow-2xl shadow-sky-500/50"/>

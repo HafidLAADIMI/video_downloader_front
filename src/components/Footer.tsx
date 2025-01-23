@@ -4,7 +4,7 @@ import {FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="px-6 sm:px-16 pt-7 pb-3 border-t border-sky-500 flex justify-between items-center flex-wrap gap-5">
+        <footer id='footer' className="px-6 sm:px-16 pt-7 pb-3 border-t border-sky-500 flex justify-between items-center flex-wrap gap-5">
             <div className="text-white-500 flex gap-2">
                 <p>Terms & Conditions</p>
                 <p>|</p>

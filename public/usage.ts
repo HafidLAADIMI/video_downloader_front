@@ -9,11 +9,11 @@ const usage = [
     }, {
         h1: "2. Paste it in the field",
         h2: "Paste the URL into the video downloader text field and click the red button",
-        img: image1
+        img: image2
     }, {
         h1: "3. Download the file",
         h2: "In just a few seconds you will get the file",
-        img: image1
+        img: image3
     },
 ]
 
